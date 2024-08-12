@@ -33,8 +33,8 @@ balance = 100
 amount_withdrawn = 30
 balance -= amount_withdrawn
 print(balance)
-#
+
 print("Type in two numbers to multiply them")
-num1 = int(input("1006"))
-num2 = int(input("225"))
-print(num1*num2)
+num1 = int(input("Number 1: "))
+num2 = int(input("Number 2: "))
+print(num1 * num2)
