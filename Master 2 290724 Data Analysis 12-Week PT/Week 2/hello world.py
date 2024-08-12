@@ -8,7 +8,7 @@
 #
 # print(len("Hello World!"))
 # print(len("01001010001010100101010010101011101101101010100101"))
-# #
+#
 # print("Hello World"[1])
 # print("Hello World"[8])
 #
