@@ -1,4 +1,4 @@
-my_name = "Naveed"
+my_name = "Abdullah"
 print(my_name == "Abdullah")
 
 if my_name == "Abdullah":
