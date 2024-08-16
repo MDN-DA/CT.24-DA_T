@@ -18,11 +18,11 @@ fav_drinks = [
 # for i in range(100,100000,8):
 #     print(i)
 
-# for i in range(92,786,8):  
-#     print(i)
-
-total = 0
 for i in range(92,786,8):  
-    total += 1
+    print(i)
 
-print(total)
+# # total = 0
+# # for i in range(92,786,8):  
+# #     total += 1
+
+# print(total)
