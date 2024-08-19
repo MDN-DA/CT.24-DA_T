@@ -19,7 +19,10 @@
 # print(f"My name is {my_name}, my favorite drink is {fav_cold_drink}, my age is {my_age}")
 #
 user_name = input("Type your name: ")
-print(f"Hello {user_name}")
+team = input("Type your team: ")
+print(f"Hello {user_name}, you are {team}")
+print("Hello", user_name, "you are", team)
+print("Hello, {}, you are {}".format(user_name, team))
 #
 # print(1+22)
 # print(23-5)
@@ -29,12 +32,12 @@ print(f"Hello {user_name}")
 #
 # print(36%6)
 #
-balance = 100
-amount_withdrawn = 30
-balance -= amount_withdrawn
-print(balance)
+# balance = 100
+# amount_withdrawn = 30
+# balance -= amount_withdrawn
+# print(balance)
 
-print("Type in two numbers to multiply them")
-num1 = int(input("Number 1: "))
-num2 = int(input("Number 2: Na"))
-print(num1 * num2)
+# print("Type in two numbers to multiply them")
+# num1 = int(input("Number 1: "))
+# num2 = int(input("Number 2: Na"))
+# print(num1 * num2)
