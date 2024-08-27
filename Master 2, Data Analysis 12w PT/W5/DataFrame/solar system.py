@@ -28,3 +28,5 @@ pluto=pd.DataFrame({
     "Year":[1930],
     "Elements":["Ice & Rock"]})
 df=pd.concat([df, pluto])
+# df.to_excel("solar system_2.xlsx", index=False)
+print(df)
