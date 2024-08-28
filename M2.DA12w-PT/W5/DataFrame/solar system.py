@@ -16,8 +16,8 @@ df=pd.DataFrame([
 df["Discovered by"]=["Ancient Civilizations","Ancient Civilizations","N/A","Ancient Civilizations","Ancient Civilizations","Ancient Civilizations","William Herschel","John Couch Adams & Urbain Le Verrier"]
 df["Year"]=["Unknown","Unknown","N/A","Unknown","Unknown","Unknown","1781","1846"]
 df["Elements"]=["Rock & Metal","Rock & Metal","Rock & Metal","Rock & Metal","Gas Giant (hydrogen, helium)","Gas Giant (hydrogen, helium)","Ice Giant (hydrogen, helium, methane)","Ice Giant (hydrogen, helium, methane)"]
-print(df)
-
+# print(df)
+# print()
 pluto=pd.DataFrame({
     "Planet":["Pluto"],
     "Average Temperature (°C)":[-229],
@@ -29,4 +29,10 @@ pluto=pd.DataFrame({
     "Elements":["Ice & Rock"]})
 df=pd.concat([df, pluto])
 # df.to_excel("solar system_2.xlsx", index=False)
-print(df)
+# print(df)
+# print()
+df=df.set_index("Planet")
+print(df.loc["Venus":"Jupiter"])
+# print()
+# df=df.set_index("Planet Name")
+# planet_selected = input("Planet name: ")

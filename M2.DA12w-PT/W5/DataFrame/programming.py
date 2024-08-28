@@ -39,3 +39,13 @@ df2.insert(3,"Ranking 2021",[4,8,6,11,45,24]) #add someone forgot in a middle eg
 df2.rename(columns={"Ranking":"Ranking 2023"}, inplace=True)
 print(df2)
 print()
+df2=df2.set_index("Languages") # select col/default
+
+print(df2.loc["Python","Ranking 2020"]) # Python 2020, only
+print(df2.loc["Python","Ranking 2020"]) # Python 2020, only
+print()
+print(df2.loc["SQL"])
+print()
+print(df2.loc[:"HTML",:"Ranking 2019":2])
+print()
+print(df2.iloc[2])
