@@ -33,6 +33,19 @@ df=pd.concat([df, pluto])
 # print()
 df=df.set_index("Planet")
 print(df.loc["Venus":"Jupiter"])
-# print()
-# df=df.set_index("Planet Name")
-# planet_selected = input("Planet name: ")
+print()
+
+planet_selected = input("Which Planet would you like to see?    > ").capitalize()
+print("Which column would you like to see?")
+for column in df.columns:
+    print(column)
+print("or type 'All' to see all information ")
+info_selected = input("    > ").capitalize()
+# Handle the user's input correctly and display the appropriate data
+try:
+    if info_selected == "All":
+        print(df.loc[planet_selected])
+    else:
+        print(df.loc[planet_selected, info_selected])
+except KeyError:
+    print("Error: Invalid input. Please make sure the planet name and column name are correct.")
