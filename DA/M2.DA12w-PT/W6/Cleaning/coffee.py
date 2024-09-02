@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_excel("n:/Learn/PLD/PY/M2.DA12w-PT/W6/Cleaning/first_hour_sales.xlsx")
+df=pd.read_excel("n:/Learn/PLD/DA/M2.DA12w-PT/W6/Cleaning/first_hour_sales.xlsx")
 df.info()
 # print(df.describe())
 # df=df.set_index("Transaction ID")

@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_excel("n:/Learn/PLD/PY/M2.DA12w-PT/W6/Cleaning/cleaning_activity.xlsx")
+df=pd.read_excel("n:/Learn/PLD/DA/M2.DA12w-PT/W6/Cleaning/cleaning_activity.xlsx")
 df.info()
 print(df)
 df=df.drop(columns=["Transaction Type","Till ID","Unnamed: 0"])
