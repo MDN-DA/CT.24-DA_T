@@ -12,7 +12,6 @@ print(f"Fastest:\n{isp.max(numeric_only=True)}")
 print()
 print(f"Slowest:\n{isp.min(numeric_only=True)}")
 print()
-print()
 print(isp.describe())
 print()
 Q1_dl=335.05
