@@ -2,7 +2,6 @@ import pandas as pd
 
 isp=pd.read_excel(r"n:\Learn\PLD\DA\M2.DA12w-PT\(3)ISP\group_results.xlsx")
 print(isp)
-print(isp)
 print()
 print(f"Mean:\n{isp.mean(numeric_only=True)}")
 print()
