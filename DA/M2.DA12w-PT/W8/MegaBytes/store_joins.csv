@@ -1,0 +1,48 @@
+first_name,last_name,main_store_id,store_city,store_door_number
+Jon,Flannagan,1,Head Office,16b
+Noah,Lopez,1,Head Office,16b
+William,Brown,1,Head Office,16b
+Matthew,Jones,1,Head Office,16b
+Evelyn,Roby,2,Manchester,43
+Abigail,Manley,2,Manchester,43
+Asuman,Buruk,2,Manchester,43
+Mia,Jones,2,Manchester,43
+Olu,Mwangi,2,Manchester,43
+Liam,Gonzalez,3,St Helens,Unit 3
+Mohammed,Rafiq,3,St Helens,Unit 3
+Liam,Salah,3,St Helens,Unit 3
+Sophia,Chen,4,Wigan,132
+Isabella,Hernandez,4,Wigan,132
+Mia,Kim,4,Wigan,132
+Sofia,Hussain,4,Wigan,132
+Chloe,Pham,4,Wigan,132
+Harper,Park,5,Liverpool,26
+Emma,Taylor,5,Liverpool,26
+Hayley,Stevenson,5,Liverpool,26
+Charlie,Griffiths,5,Liverpool,26
+Ava,Gomez,6,Manchester,Unit 34
+Elizabeth,Wiggins,6,Manchester,Unit 34
+Alex,Blanco,6,Manchester,Unit 34
+Xiu,Wang,7,Warrington,76
+Azizi,Wambui,7,Warrington,76
+Grace,Avila,7,Warrington,76
+Lucas,Torres,7,Warrington,76
+Olivia,Lee,8,Chester,2 The Market
+Benjamin,Jones,8,Chester,2 The Market
+Alexander,O'Reily,8,Chester,2 The Market
+Juan,Rubio,9,New Brighton,478
+Sophie,Jonestone,9,New Brighton,478
+Avery,Smith,9,New Brighton,478
+Emily,Smith,10,Warrington,Block C
+Layla,Njoroge,10,Warrington,Block C
+Madison,Brownlee,10,Warrington,Block C
+Ethan,Nguyen,11,Manchester,112A
+Avery,Ramirez,11,Manchester,112A
+Jacob,Wong,11,Manchester,112A
+Noah,Garcia,11,Manchester,112A
+Daniel,Martinez,12,Liverpool,1
+Amelia,Garcia,12,Liverpool,1
+Leon,Bai,12,Liverpool,1
+Oliver,Cheung,13,Chester,22
+Elijah,Tompkins,13,Chester,22
+Ima,Fredrikson,13,Chester,22

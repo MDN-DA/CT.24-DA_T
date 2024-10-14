@@ -1,0 +1,1 @@
+SELECT * FROM bj0ocz7lxeblo15vlbyy.payment_bands;
